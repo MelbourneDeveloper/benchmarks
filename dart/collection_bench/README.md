@@ -27,11 +27,12 @@ Disclaimer: I don't know what I'm doing and I'm probably wrong. Please let me kn
 
 | Library  | Time  |  
 |---|---| 
+| Standard List | 10460.031358885017 |
 |  fast_immutable_collections | 12949.63125  |  
 |  kt_list | 13110.342995169081  |  
 |  built_list | 13110.342995169081  |  
 |  fixed_collections | 13620.61038961039  |  
-| Standard List | 10460.031358885017 |
+
 
 ## `for` loop
 
