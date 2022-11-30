@@ -31,7 +31,17 @@ Disclaimer: I don't know what I'm doing and I'm probably wrong. Please let me kn
 | Library  | Time  |  
 |---|---| 
 |  built_list | 1380.4033333333334 |  
+|  fixed_collections | 1501.1477777777777 | 
 |  kt_list | 1928.2526236881558 |  
 |  fast_immutable_collections | 2163.84 |  
-|  fixed_collections |  |  
-| Standard List |  |
+| Standard List | 2210.982 |
+
+## `for in` loop
+
+| Library  | Time  |  
+|---|---| 
+| Standard List | 2124.9975 |
+|  built_list | 2286.165 | 
+|  fixed_collections | 2347.972 | 
+|  kt_list | 2353.311 |  
+|  fast_immutable_collections | 2788.1675 | 
