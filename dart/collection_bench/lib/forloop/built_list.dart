@@ -1,7 +1,8 @@
 import 'package:benchmark_harness/benchmark_harness.dart';
-import 'package:kt_dart/kt.dart';
+import 'package:built_collection/built_collection.dart';
+import 'package:collection_bench/constants.dart';
 
-final list = List.generate(100000, (index) => index).toImmutableList();
+final list = List.generate(length, (index) => index).build();
 
 class TemplateBenchmark extends BenchmarkBase {
   const TemplateBenchmark() : super('Template');
@@ -12,7 +13,7 @@ class TemplateBenchmark extends BenchmarkBase {
 
   @override
   void run() {
-    for (var i = 0; i < list.size; i++) {}
+    for (var i = 0; i < list.length; i++) {}
   }
 }
 

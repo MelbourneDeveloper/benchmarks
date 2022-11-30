@@ -1,7 +1,7 @@
 import 'package:benchmark_harness/benchmark_harness.dart';
-import 'package:fixed_collections/fixed_collections.dart';
+import 'package:collection_bench/constants.dart';
 
-final list = FixedList(List.generate(100000, (index) => index));
+final list = List.generate(length, (index) => index);
 
 class TemplateBenchmark extends BenchmarkBase {
   const TemplateBenchmark() : super('Template');
