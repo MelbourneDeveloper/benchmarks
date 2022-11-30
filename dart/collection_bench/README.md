@@ -29,8 +29,8 @@ Disclaimer: I don't know what I'm doing and I'm probably wrong. Please let me kn
 |---|---| 
 | Standard List | 10460.031358885017 |
 |  fast_immutable_collections | 12949.63125  |  
-|  kt_list | 13110.342995169081  |  
-|  built_list | 13110.342995169081  |  
+|  kt_list | 13375.7375  |  
+|  built_list | 13146.475  |  
 |  fixed_collections | 13620.61038961039  |  
 
 
