@@ -1,6 +1,6 @@
 
 # Immutable Collection Benchmarks
-These benchmarks attempt to compare the performance of various immutable lists in Dart. The reasoning for these benchmarks is that you will mostly be doing one of four things: creating a list from an iterable, iterating with `for in`, iterating in a `for` loop, or converting to a list. Notably, the fixed_collections list doesn't have a benchmark to convert to a `List<>` because it is already a `List<>`. There is no conversion necessary.
+These benchmarks attempt to compare the performance of various immutable lists in Dart. The reasoning for these benchmarks is that you will mostly be doing one of four things: creating a list from an iterable, iterating with `for in`, iterating in a `for` loop, or converting to a list. Notably, the fixed_collections list doesn't have a benchmark to convert to a `List<>` because it is already a `List<>`. There is no conversion necessary. All the lists are integer lists with 100,000 elements.
 
 All benchmarks here are in release mode on a Ubuntu - Intel(R) Core(TM) i7-3632QM CPU @ 2.20GHz computer.
 
@@ -24,3 +24,14 @@ Disclaimer: I don't know what I'm doing and I'm probably wrong. Please let me kn
 |  kt_list | 13110.342995169081  |  
 |  built_list | 13110.342995169081  |  
 |  fixed_collections | 13620.61038961039  |  
+| Standard List | 10460.031358885017 |
+
+## `for` loop
+
+| Library  | Time  |  
+|---|---| 
+|  built_list | 1380.4033333333334 |  
+|  kt_list | 1928.2526236881558 |  
+|  fast_immutable_collections | 2163.84 |  
+|  fixed_collections |  |  
+| Standard List |  |
